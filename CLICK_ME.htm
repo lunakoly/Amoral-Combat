@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Amoral Combat</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js" defer></script>
+		<meta charset="utf-8">
+	</head>
+
+	<body tabindex="1" autofocus>
+		<video src="videos/rycardo_blur.mp4" id="bg" autoplay muted></video>
+
+		<div id="ground"></div>
+		<div class="grave" style="top: 57vh; left: 10vw"></div>
+		<div class="grave" style="top: 60vh; left: 50vw"></div>
+		<div class="grave" style="top: 57vh; left: 82vw"></div>
+
+		<div id="field">
+			<div class="fighter" id="ura">
+				<div class="emitter"></div>
+				<audio src="sounds/punch.ogg" class="punch_audio"></audio>
+				<audio src="sounds/wind.ogg"  class="wind_audio"></audio>
+				<audio src="sounds/ura_hurt.ogg"  class="hurt_audio"></audio>
+				<audio src="sounds/ura_dies.mp3"  class="die_audio"></audio>
+			</div>
+			<div class="fighter" id="ustina">
+				<div class="emitter"></div>
+				<audio src="sounds/punch.ogg" class="punch_audio"></audio>
+				<audio src="sounds/wind.ogg"  class="wind_audio"></audio>
+				<audio src="sounds/ustina_hurt.ogg"  class="hurt_audio"></audio>
+				<audio src="sounds/ustina_dies.mp3"  class="die_audio"></audio>
+			</div>
+		</div>
+
+		<div class="grave" style="top: 72vh; left: 26vw"></div>
+
+		<div id="ui">
+			<div class="health">
+				<div class="bar" id="ustinas_health"></div>
+				<div class="title">Ustina</div>
+			</div>
+			<div class="health">
+				<div class="bar" id="uras_health"></div>
+				<div class="title">Ura</div>
+			</div>
+		</div>
+
+		<iframe src="sounds/main_theme.mp3" allow="autoplay"></audio>
+	</body>
+</html>
